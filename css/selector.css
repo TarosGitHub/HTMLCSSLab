@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 全称セレクタ */
+* {
+    color: blue;
+}
+
+/* タイプセレクタ */
+h1 {
+    color: aqua;
+}
+
+/* idセレクタ */
+#foo {
+    color: crimson;
+}
+
+/* classセレクタ */
+.bar {
+    color: coral;
+}
+
+/* 子孫コンビネータ(子孫セレクタ) */
+ul li {
+    color: blueviolet;
+}
+
+/* 擬似クラス */
+a:hover {
+    color: chartreuse;
+}
+
+a:visited {
+    color: darkmagenta;
+}
